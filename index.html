@@ -11,10 +11,14 @@
   <main>
     <h1>Generate a <span>random password</span></h1>
     <p>Never use an insecure password again.</p>
-    <button>Generate passwords</button>
+    <button id="btn" class="btn">Generate passwords</button>
     <div>
-      <p>password</p>
-      <p>password</p>
+      <label for="usuario-pass-longitud">Elige la longitud( min10 / max20 )</label>
+      <input id="usuario-pass-longitud" class="usuario-pass-longitud" value="15" min="10" max="20" type="number">
+    </div>
+    <div id="pass-html"  class="pass-container">
+      <p id="parrafo-pass-uno">password</p>
+      <p id="parrafo-pass-dos">password</p>
     </div>
   </main>
 
